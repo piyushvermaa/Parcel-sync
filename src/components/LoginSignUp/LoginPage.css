@@ -1,0 +1,109 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap for better spacing */
+    padding: 20px; /* Padding adjusted for better alignment */
+    background-color: #171717;
+    border-radius: 15px; /* Reduced border radius */
+    transition: 0.4s ease-in-out;
+  }
+  
+  .card {
+    margin-top: 4%;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 15px; /* Reduced border radius */
+    transition: all 0.3s;
+    width: 300px; /* Adjusted width */
+    height: auto; /* Height set to auto for better responsiveness */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .card2 {
+    border-radius: 15px; /* Reduced border radius */
+    transition: all 0.2s;
+  }
+  
+  .card2:hover {
+    transform: scale(0.98);
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 20px 1px rgba(0, 255, 117, 0.3); /* Reduced box-shadow */
+  }
+  
+  #heading {
+    text-align: center;
+    margin: 20px 0; /* Adjusted margin for better spacing */
+    color: rgb(255, 255, 255);
+    font-size: 1.5em; /* Increased font size */
+  }
+  
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Adjusted gap for better spacing */
+    border-radius: 15px; /* Reduced border radius */
+    padding: 15px; /* Adjusted padding */
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  }
+  
+  .input-icon {
+    height: 1.5em; /* Adjusted height */
+    width: 1.5em; /* Adjusted width */
+    fill: white;
+  }
+  
+  .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+  }
+  
+  .form .btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjusted gap for better spacing */
+    margin-top: 2em;
+  }
+  
+  .button1,
+  .button2,
+  .button3 {
+    padding: 10px 20px; /* Adjusted padding for buttons */
+    border-radius: 8px; /* Reduced border radius */
+    border: none;
+    outline: none;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .button1,
+  .button2 {
+    background-color: #252525;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: #252525;
+    color: white;
+    margin-bottom: 2em; /* Adjusted margin for better spacing */
+  }
+  
+  .button1:hover,
+  .button2:hover {
+    background-color: black;
+  }
+  
+  .button3:hover {
+    background-color: red;
+  }
+  
