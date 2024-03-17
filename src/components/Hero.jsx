@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { curve} from "../assets";
 import Button from "./Button";
 import Section from "./Section";
@@ -35,9 +36,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6  text-[#a7a7a7] lg:mb-8">
           Elevate Your Parcel Delivery Experience with Brainwave: Your Ultimate Shipping Solution
           </p>
-          <Button href="/pricing" white>
-            Get started
-          </Button>
+            <Link to="signup"><Button href="" white>Get started</Button></Link>
         </div>
             
 
