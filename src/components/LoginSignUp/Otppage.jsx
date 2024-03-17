@@ -18,7 +18,7 @@ function Otppage() {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-[10%] p-6 bg-[#2c2c2c] rounded-lg shadow-lg transform hover:shadow-xl transition-all duration-300">
+    <div className="max-w-md mx-auto mt-[10%]  p-6 bg-[#2c2c2c] rounded-lg shadow-lg transform hover:shadow-xl transition-all duration-300">
       <div className="flex items-center justify-center mb-4">
         <FaKey className="text-blue-500 text-4xl mr-2" />
         <h2 className="text-lg font-semibold text-gray-200">Enter OTP</h2>
