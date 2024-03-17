@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
@@ -69,15 +69,15 @@ const Header = () => {
         </nav>
 
         <a
-          href="#signup"
+          href="/signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#login">
+       <Link to="/login"> <Button className="hidden lg:flex" href="">
           Sign in
         </Button>
-
+</Link>
         <Button
           className="ml-auto lg:hidden"
           px="px-3"
