@@ -9,15 +9,15 @@ import PublicProfile from "./components/profile/PublicProfile";
 const App = () => {
   return (
     <>
-      {/* <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />
 
         <Footer />
       </div>
 
-      <ButtonGradient /> */}
-      <Home />
+      <ButtonGradient />
+{/*       <Home /> */}
       {/* <PublicProfile/> */}
     </>
   );
