@@ -27,9 +27,6 @@ function App() {
       <Route path="footer" element={<Footer/>}/>
       <Route path="home" element={<Home/>}/>
       <Route path="otp" element={<Otppage/>}/>
-
-      
-
     </Routes>
     </BrowserRouter>
   );
