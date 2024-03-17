@@ -46,7 +46,7 @@ const Homenav = () => {
                 </button>
                 <ul className='text-white'>
                   <li className='py-2'>Shops</li>
-                  <li className='py-2'>Profile</li>
+                  <Link to="profile"><li className='py-2'>Profile</li></Link>
                   <li className='py-2'>Orders</li>
                   <li className='py-2'>Settings</li>
                   {/* Add more menu items as needed */}
