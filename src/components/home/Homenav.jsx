@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaUser, FaBell, FaSearch } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const Homenav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,7 +26,7 @@ const Homenav = () => {
           {/* Profile and Notification icons */}
           <div className='hidden md:flex items-center space-x-4'>
             <FaBell className='text-xl cursor-pointer' />
-           <Link to="profile"><FaUser className='text-xl cursor-pointer' /></Link> 
+            <FaUser className='text-xl cursor-pointer' />
           </div>
           {/* Hamburger menu for smaller screens */}
           <div className='md:hidden'>
